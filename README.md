@@ -1,4 +1,4 @@
-Jarfile for selenium-server-standalone.
+Jarfile and browser drivers for selenium-server-standalone.
 
 Include this package for use with Nightwatch.js.
 
