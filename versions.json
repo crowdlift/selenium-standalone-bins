@@ -1,0 +1,14 @@
+{
+  "jar": {
+    "latest": "3.1.0",
+    "3.1.0": "013429ed5d56aea3de8fe2a2ba9a0888"
+  },
+  "drivers": {
+    "chrome": {
+      "mac32": {
+        "latest": "2.7",
+        "2.7": "7a548bf2d0802a9ea6b9425d682d40a5"
+      }
+    }
+  }
+}

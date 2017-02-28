@@ -1,0 +1,32 @@
+{
+  "name": "selenium-standalone-bins",
+  "version": "1.0.0",
+  "description": "Selenium jarfile and drivers.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./scripts/postinstall.sh",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crowdlift/selenium-standalone-bins.git"
+  },
+  "keywords": [
+    "selenium",
+    "standalone",
+    "server",
+    "jar",
+    "driver"
+  ],
+  "author": "Joe Johnston <joe@crowdlift.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crowdlift/selenium-standalone-bins/issues"
+  },
+  "homepage": "https://github.com/crowdlift/selenium-standalone-bins",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "md5-file": "^3.1.1",
+    "mocha": "^3.2.0"
+  }
+}
