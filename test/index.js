@@ -55,8 +55,8 @@ describe('Versions', () => {
     describe('drivers', () => {
       const testDriver = (browser, os) => {
         it(`matches ${os} zip`, (done) => {
-          const file = path.resolve(__dirname, `../drivers/${os}_${browser}driver_${versions.drivers[browser][os].latest}.zip`);
-          testMD5(file, versions.drivers.chrome.mac32[versions.drivers.chrome.mac32.latest])
+          const file = path.resolve(__dirname, `../drivers/${browser}driver_${os}_${versions.drivers[browser][os].latest}.zip`);
+          testMD5(file, versions.drivers.chrome[os][versions.drivers.chrome[os].latest])
           .then(done)
           .catch(done);
         });
